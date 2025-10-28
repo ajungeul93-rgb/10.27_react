@@ -1,0 +1,12 @@
+.tableHeader{
+    border : 3px solid lightgray;
+    border-radius: 15px;
+    background-color: lightcyan;
+    border-collapse: collapse;
+}
+
+.tableHeader > * >*>th{
+    width: 200px;
+    border : 3px solid lightgray;
+    font-weight: 800;
+}
