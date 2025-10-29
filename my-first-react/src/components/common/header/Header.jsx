@@ -1,25 +1,11 @@
 import "./Header.css";
 
 const Header = () => {
-
-    return (
-
-        <>
-            <table className="tableHeader">
-                <thead>
-                    <tr>
-                        <th colSpan={3}><a href="">1.</a></th>
-                        <th><a href="">2.</a></th>
-                        <th><a href="">3.</a></th>
-                    </tr>
-                </thead>
-
-
-            </table>
-        </>
-
-    );
-
+  return (
+    <header className="simple-header">
+      <h1>React</h1>
+    </header>
+  );
 };
 
 export default Header;
