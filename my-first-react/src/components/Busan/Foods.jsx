@@ -27,7 +27,7 @@ const Foods = () => {
         }).then((result) => console.log(result));
         */
 
-        axios.get(`http://localhost/spring/api/busan?pageNo=${pageNo}`)
+        axios.get(`http://localhost/api/busan?pageNo=${pageNo}`)
              .then((result) => {
                 //console.log("응답 잘오나~");
                 //console.log(result);

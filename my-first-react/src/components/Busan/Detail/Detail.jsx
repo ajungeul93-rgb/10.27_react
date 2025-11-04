@@ -35,7 +35,7 @@ const submitHandler = e => {
         return;
     }
     /* 이런저런 유효성 검사 */
-    axios.post(`http://localhost/spring/api/comments`,{
+    axios.post(`http://localhost/api/comments`,{
         foodNo : id,
         content : content,
     }).then((result) => {
@@ -46,7 +46,7 @@ const submitHandler = e => {
 };
 
     useEffect(() => {
-        axios.get(`http://localhost/spring/api/busan/${id}`)
+        axios.get(`http://localhost/api/busan/${id}`)
         .then((result) =>{
             //console.log(result);
             const response = result.data.getFoodKr.item[0];
